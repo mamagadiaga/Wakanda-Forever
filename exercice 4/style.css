@@ -1,0 +1,200 @@
+.ma{
+    height: 80px;
+  border-bottom: 1px solid #f1f1f1;
+  background-color: #2e3138;
+}
+.navbar a{
+    color: #f1f1f1;
+   
+}
+
+
+body{
+    background-color: #f1f1f1;
+    }
+    .main-timeline-section{
+    position: relative;
+    width: 100%;
+    margin:auto;
+    }
+    .main-timeline-section .timeline-start,
+    .main-timeline-section .timeline-end {
+    background: #ffc107;
+    border-radius:100px;
+    margin: 0 auto;
+    width:30px;
+    height:30px;
+    }
+    .main-timeline-section .conference-center-line {
+    position: absolute;
+    width: 4px;
+    height:100%;
+    top: 0;
+    left:50%;
+    margin-left: -2px;
+    background: #ffc107;
+    z-index: -1;
+    }
+    .timeline-article{
+    width:100%;
+    position:relative;
+    margin:40px 0px;
+    min-height: 135px;
+    z-index: 0;
+    }
+    .timeline-article .content-date{
+    position: absolute;
+    top:33%;
+    left:50%;
+    font-size:18px;
+    margin-left: -150px;
+    transform: translateY(50%);
+    }
+    .timeline-article .meta-date {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width:20px;
+    height:20px;
+    transform: translateY(-50%);
+    margin-left: -11px;
+    border-radius: 100%;
+    background:#fff;
+    border:1px solid #ffc107;
+    }
+    .timeline-article .content-box{
+    position:absolute;
+    box-shadow: 2px 2px 4px 0px #c1c1c1;
+    border:1px solid #ffc107;
+    border-radius: 5px;
+    background-color: #fff;
+    width:40%;
+    top:50%;
+    transform: translateY(-50%);
+    padding:8px;
+    left:50%;
+    margin-left:50px;
+    }
+    .content-left-container .content-box{
+    left:5%;
+    margin-left: 0px;
+    }
+    .content-left-container .content-date{
+    margin-left: 50px;
+    }
+    .content-right-container .content-box:before{
+    content: " ";
+    position:absolute;
+    left:-10px;
+    top:40%;
+    transform: translateX(-50%);
+    border:10px solid transparent;
+    border-right-color:#ffc107;
+    display:block;
+    }
+    .content-left-container .content-box:before{
+    content: " ";
+    position:absolute;
+    top:40%;
+    right:-30px;
+    transform: translateX(-50%);
+    border:10px solid transparent;
+    border-left-color:#ffc107;
+    }
+  
+    @media (max-width:460px){
+    .timeline-article.content-left-container .content-box{
+    left: -10px;
+    }
+    .timeline-article .content-box p{
+    height: 100px;
+    overflow: hidden;
+    }
+    }
+
+
+
+
+
+    
+    .span-or {
+      display: block;
+      position: absolute;
+      left: 50%;
+      top: -2px;
+      margin-left: -25px;
+      background-color: #fff;
+      width: 50px;
+      text-align: center;
+    }
+    .hr-or {
+      background-color: #cdcdcd;
+      height: 1px;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+    }
+  footer.nb-footer {
+  background: #222;
+  border-top: 4px solid #b78c33; }
+  footer.nb-footer .about {
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 1170px;
+  text-align: center; }
+  footer.nb-footer .about p {
+  font-size: 13px;
+  color: #999;
+  margin-top: 30px; }
+  footer.nb-footer .about .social-media {
+  margin-top: 15px; }
+  footer.nb-footer .about .social-media ul li a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #b78c33;
+  border: 1px solid rgba(255, 255, 255, 0.3); }
+  footer.nb-footer .about .social-media ul li a:hover {
+  background: #b78c33;
+  color: #fff;
+  border-color: #b78c33; }
+  footer.nb-footer .footer-info-single {
+  margin-top: 30px; }
+  footer.nb-footer .footer-info-single .title {
+  color: #aaa;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-left: 4px solid #b78c33;
+  padding-left: 5px; }
+  footer.nb-footer .footer-info-single ul li a {
+  display: block;
+  color: #aaa;
+  padding: 2px 0; }
+  footer.nb-footer .footer-info-single ul li a:hover {
+  color: #b78c33; }
+  footer.nb-footer .footer-info-single p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #aaa; }
+  footer.nb-footer .copyright {
+  margin-top: 15px;
+  background: #111;
+  padding: 7px 0;
+  color: #999; }
+  footer.nb-footer .copyright p {
+  margin: 0;
+  padding: 0; }
+.contener{
+    display: flex;
+    justify-content: end;
+    width: 65%;  
+   }
+        @media only screen and (max-width: 1020px) {
+       
+.contener{
+ 
+    width: 100%;  
+   }
+        }
