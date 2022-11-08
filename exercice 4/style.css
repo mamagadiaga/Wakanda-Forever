@@ -7,7 +7,12 @@
     color: #f1f1f1;
    
 }
-
+.bordb{
+  border-bottom: 2px solid #ffc107;
+}
+.bordt{
+  border-top: 2px solid #ffc107;
+}
 
 body{
     background-color: #f1f1f1;
